@@ -1,26 +1,30 @@
-# My React App
+# tedooo-feed
 
-Welcome to My tedooo-feed!.
+Welcome to My tedooo-feed!
 
 ## Getting Started
-
 Follow the instructions below to get the application up and running on your local machine.
 
 ### Installation
 
-1. **Clone the repository** to your local machine using the following command:
+1. Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/l/my-react-app.git
+   git clone https://github.com/Liorodin/tedooo-feed.git
+   ```
 
 2. Navigate to the project directory
-  ```bash
-   cd my-react-app
 
+    ```bash
+   cd tedooo-feed
+    ```
+   
 3. Install the dependencies
-  ```bash
+    ```bash
    npm i
+    ```
 
 4. Running the App
-  ```bash
+    ```bash
    npm run dev
+   ```
