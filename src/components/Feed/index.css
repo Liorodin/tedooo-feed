@@ -1,0 +1,19 @@
+:root {
+  --feed-top-paddind: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 24px 160px;
+  background-color: #F6F7F7;
+}
+
+.loading_icon {
+  margin-top: 200px;
+}
+
+.posts {
+  display: grid;
+  gap: 24px;
+}

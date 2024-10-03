@@ -1,0 +1,24 @@
+/* Error.css */
+.error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.error_card {
+  max-width: 250px;
+  border: 1px solid #f44336;
+  background-color: #ffebee;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px 0;
+}
+
+.error_message {
+  color: #d32f2f;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}

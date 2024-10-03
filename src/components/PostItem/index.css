@@ -1,0 +1,145 @@
+:root {
+  --post-items-gap: 16px;
+  --default-text-size: 14px
+}
+
+.post {
+  width: 1120px;
+  padding-top: 24px;
+  background-color: #fff;
+  display: grid;
+  gap: var(--post-items-gap);
+  border-radius: 4px;
+}
+
+.post_header {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  gap: var(--post-items-gap);
+}
+
+.avatar {
+  max-width: 379px;
+  max-height: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.avatar_img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  color: #282F2D;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.shop_name {
+  color: #1a73e8;
+  font-size: var(--default-text-size);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.post_date {
+  color: #949796;
+  font-size: var(--default-text-size);
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.post_text {
+  font-size: var(--default-text-size);
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.post_content {
+  display: flex;
+  background-color: #B8C248;
+  gap: 8px;
+  max-height: 517px;
+  justify-content: space-around;
+}
+
+.post_content.multiple {
+  justify-content: space-between;
+}
+
+.post_content .post_img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.post_content.multiple .post_img {
+  justify-content: space-between;
+  max-width: calc(50% - 8px);
+}
+
+.post_img {
+  max-width: 1120px;
+}
+
+.post_footer {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--post-items-gap);
+}
+
+.post_metrics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacer {
+  border-bottom: 1px solid #E9EAEA;
+}
+
+.actions {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post_btn {
+  font-size: var(--default-text-size);
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: none;
+  color: #484E4C;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 6px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.post_btn:hover {
+  background-color: #f2f2f2;
+}
+
+.post_btn:active {
+  transform: scale(0.96);
+}
+
+.active {
+  color: #0A66C2;
+  fill: #0A66C2;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #737877;
+  font-size: var(--default-text-size);
+}
